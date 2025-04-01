@@ -16,16 +16,8 @@ This tool is designed for users who want to declutter their system while
 maintaining Adobe apps (e.g., Photoshop) or completely removing Adobe 
 dependencies.
 
-#### Instructions for Running the Script
-
-Follow these steps to download, prepare, and execute the `remove_ags.sh` script:
-
-1. **Download the Script**:
-   - If you’ve cloned the repository, the script is already in the repository directory. Otherwise, download it from GitHub:
-     ```bash
-     curl -O https://raw.githubusercontent.com/your-username/ags-removal-utility/main/remove_ags.sh
-     ```
-     Replace `your-username` with your GitHub username.
+1. **Download the Script**:  
+   - Download the ZIP file from the repository and extract it to locate `remove_ags.sh`  
 
 2. **Make the Script Executable**:
    - Add execute permissions to the script to allow it to run:
@@ -62,4 +54,4 @@ Follow these steps to download, prepare, and execute the `remove_ags.sh` script:
 
 ## Contributing
 
-Contributions are welcome! Please:
+Contributions are welcome! 
