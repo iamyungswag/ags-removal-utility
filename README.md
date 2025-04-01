@@ -40,5 +40,4 @@ Services](#step-2-stop-and-disable-ags-services)
 - **Terminal**: Basic familiarity with Terminal commands.
 - **Optional**: Back up your system or Adobe files before proceeding:
   ```bash
-  sudo cp -r /Library/Application\ Support/Adobe /Library/Application\ 
-Support/Adobe_Backup
+  sudo cp -r /Library/Application\ Support/Adobe /Library/Application\ Support/Adobe_Backup
