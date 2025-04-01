@@ -1,4 +1,4 @@
-# Adobe Genuine Software (AGS) Removal Utility for macOS
+# Adobe Genuine Software (AGS) Removal Utility for macOS 
 
 ![macOS](https://img.shields.io/badge/platform-macOS-lightgrey.svg)  
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
