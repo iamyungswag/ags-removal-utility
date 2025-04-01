@@ -55,3 +55,8 @@ dependencies.
 ## Contributing
 
 Contributions are welcome! 
+
+### Made with precision by **mujeeb** 🚀  
+
+_Keep it clean, keep it simple—just like this script._
+
