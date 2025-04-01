@@ -16,22 +16,40 @@ This tool is designed for users who want to declutter their system while
 maintaining Adobe apps (e.g., Photoshop) or completely removing Adobe 
 dependencies.
 
-## Table of Contents
+#### Instructions for Running the Script
 
-- [Prerequisites](#prerequisites)
-- [What Are AGS Services?](#what-are-ags-services)
-- [Removal Process](#removal-process)
-  - [Step 1: Force Kill All Adobe 
-Processes](#step-1-force-kill-all-adobe-processes)
-  - [Step 2: Stop and Disable AGS 
-Services](#step-2-stop-and-disable-ags-services)
-  - [Step 3: Remove AGS Files](#step-3-remove-ags-files)
-  - [Step 4: Prevent Pop-Ups](#step-4-prevent-pop-ups)
-  - [Step 5: Prevent Reinstallation](#step-5-prevent-reinstallation)
-- [Verification](#verification)
-- [Revert Removal](#revert-removal)
-- [Automation Script](#automation-script)
-- [Contributing](#contributing)
+Follow these steps to download, prepare, and execute the `remove_ags.sh` script:
+
+1. **Download the Script**:
+   - If you’ve cloned the repository, the script is already in the repository directory. Otherwise, download it from GitHub:
+     ```bash
+     curl -O https://raw.githubusercontent.com/your-username/ags-removal-utility/main/remove_ags.sh
+     ```
+     Replace `your-username` with your GitHub username.
+
+2. **Make the Script Executable**:
+   - Add execute permissions to the script to allow it to run:
+     ```bash
+     chmod +x remove_ags.sh
+     ```
+
+3. **Run the Script**:
+   - Execute the script with `sudo`, as it requires administrative privileges to make system-level changes:
+     ```bash
+     sudo bash remove_ags.sh
+     ```
+   - **What the Script Does**:
+     - Force kills all Adobe processes to prevent interference.
+     - Stops and disables AGS services.
+     - Removes AGS-related files and LaunchDaemons.
+     - Blocks Adobe domains to prevent reinstallation.
+     - Reboots your system to apply changes.
+
+#### Notes for Running the Script
+
+- **Caution**: Ensure you have backed up any important Adobe files before running the script, as it will remove AGS-related components.
+- **Permissions**: The `sudo` command is required because the script modifies system files and directories.
+- **Reboot**: The script will automatically reboot your system at the end to ensure all changes take effect.
 
 ## Prerequisites
 
@@ -41,3 +59,7 @@ Services](#step-2-stop-and-disable-ags-services)
 - **Optional**: Back up your system or Adobe files before proceeding:
   ```bash
   sudo cp -r /Library/Application\ Support/Adobe /Library/Application\ Support/Adobe_Backup
+
+## Contributing
+
+Contributions are welcome! Please:
